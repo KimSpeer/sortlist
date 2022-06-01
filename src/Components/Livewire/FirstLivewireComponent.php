@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace VendorName\Skeleton\Components\Livewire;
 
-use Illuminate\Contracts\View\View;
-use VendorName\Skeleton\Components\LivewireComponent;
-
 class FirstLivewireComponent extends Component
 {
     /** @var array */
@@ -24,5 +21,4 @@ class FirstLivewireComponent extends Component
     {
         return view('livewire.first-livewire-component');
     }
-
 }

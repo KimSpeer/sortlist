@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace VendorName\Skeleton\Components\Blade;
 
-use VendorName\Skeleton\Components\BladeComponent;
-use Illuminate\Contracts\View\View;
-
 class FirstBladeComponent extends Component
 {
     /** @var array */
@@ -24,5 +21,4 @@ class FirstBladeComponent extends Component
     {
         return view('blade.first-blade-component');
     }
-
 }
