@@ -5,12 +5,12 @@ namespace KimSpeer\Sort;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Str;
 use Illuminate\View\Compilers\BladeCompiler;
-use Livewire\Livewire;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use KimSpeer\Sort\Commands\SortCommand;
 use KimSpeer\Sort\Components\BladeComponent;
 use KimSpeer\Sort\Components\LivewireComponent;
+use Livewire\Livewire;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class SortServiceProvider extends PackageServiceProvider
 {
