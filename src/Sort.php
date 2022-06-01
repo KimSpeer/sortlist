@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Usetall\TalluiCore;
 
-final class Skeleton
+final class Sort
 {
     /** @var array */
     private static $styles = [];

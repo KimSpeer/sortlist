@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VendorName\Skeleton\Components\Blade;
+namespace KimSpeer\Sort\Components\Blade;
 
 class FirstBladeComponent extends Component
 {

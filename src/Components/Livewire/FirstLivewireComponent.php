@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VendorName\Skeleton\Components\Livewire;
+namespace KimSpeer\Sort\Components\Livewire;
 
 class FirstLivewireComponent extends Component
 {

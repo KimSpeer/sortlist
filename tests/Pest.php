@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use KimSpeer\Sort\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

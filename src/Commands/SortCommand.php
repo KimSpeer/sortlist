@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace KimSpeer\Sort\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SortCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'sortlist';
 
     public $description = 'My command';
 

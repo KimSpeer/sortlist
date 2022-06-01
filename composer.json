@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "kimspeer/sortlist",
+    "description": "Test Alf",
     "keywords": [
-        ":vendor_name",
+        "KimSpeer",
         "laravel",
-        ":package_slug",
+        "sortlist",
         "tall-stack",
         "tailwindcss",
         "alpinejs",
         "livewire",
         "admin"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/kimspeer/sortlist",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "KimSpeer",
+            "email": "kim.speer@co-IT.eu",
             "role": "Developer"
         }
     ],
@@ -39,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "KimSpeer\\Sort\\": "src",
+            "KimSpeer\\Sort\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "KimSpeer\\Sort\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "KimSpeer\\Sort\\SortServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Sort": "KimSpeer\\Sort\\Facades\\Sort"
             }
         }
     },
